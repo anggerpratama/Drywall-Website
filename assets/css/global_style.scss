@@ -1,0 +1,22 @@
+.menu{
+    width: 100%;height: auto;padding: 20px;background-color: black;color: white;float: right;
+}
+.papper{padding:120px;padding-top:0;}
+.list-menu{
+    width: auto;float: right;
+    a{
+        color: white;margin: 0 20px;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.menimg{
+    position: absolute;top:-60px;left:150px;
+    img{
+        width: 180px;
+    }
+}
+.social{
+    margin: 30px 0;
+}

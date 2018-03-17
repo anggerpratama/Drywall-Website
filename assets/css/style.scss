@@ -1,0 +1,368 @@
+//font sources
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$primary: rgb(255, 153, 0);
+$second:  rgb(253 , 203 , 49);
+$third: rgb(255, 241, 0);
+//bootstrap change
+
+body{
+    background-image: url(../img/Background1.jpg);background-size: cover;background-attachment: fixed;
+    background-position: center;
+}
+.display-4{font-size: 17px;font-family: 'Open Sans' , sans-serif;}
+.menu{
+    width: 99.3%;height: auto;padding: 20px;background-color: black;color: white;float: right;margin: 0 4px;
+}
+.papper{padding:120px;padding-top:0;}
+.backwhite{background-color: rgba(255, 255, 255, 0.6);height: 100vh;width: 100%;position: fixed;z-index: -1;}
+.list-menu{
+    width: auto;float: right;
+    a{
+        color: white;margin: 0 20px;font-weight: bold;font-size: 15px;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.drophere{
+    display: none;position: absolute;width: auto;height: auto;padding: 30px 15px;background-color: rgba(255, 153, 0, 0.623);;right:19px;top: 63px;z-index: 11;
+    a{
+        color: black;
+    }
+}
+.menimg{
+    position: absolute;top:-60px;left:9%;
+    img{
+        width: 175px;
+    }
+}
+.social{
+    margin: 30px 0;padding-right: 50px;
+}
+.landing{
+    margin: 30px;margin-top: 100px;
+    .col-lg-4{
+        margin: 0;padding:2px;
+    }
+}
+.landing2{
+    margin: 32px;margin-top: 30px;
+}
+.marg{
+    margin-top: 40px;margin-bottom: 40px;
+}
+.range{
+    margin: 10px 0;
+}
+.range2{
+    width:auto;height: 29vh;position: relative;z-index: 3;
+    padding: 0;margin-top: 10px;margin-bottom: 10px;
+    img{
+        position: absolute;
+    }
+}
+.inrange2{
+    background-color: rgba(255, 242, 0, 0.541);padding: 10px;margin: auto;width: 80%;transform: translateY(170%);
+    font-weight: bold;position: absolute;margin-left: 30px;
+}
+.line{
+    width: 100px;height: 3px;background-color: rgb(191, 191, 191);margin: auto;
+}
+.line-or{
+    width: 60px;height: 2px;background-color:$primary ;transform: translateY(-10px);
+}
+.orbox{
+    width: 100px;height: 100px;color: white;background-color: $primary;text-align: center;margin-bottom: 20px;
+    p{
+        transform: translateY(35px);
+    }
+}
+.yeybox{
+    width: 100px;height: 100px;color: white;background-color:$third;text-align: center;margin-bottom: 20px;
+    i{
+        color: black;font-size: 50px;transform: translateY(22px)
+    }
+}
+.tdsmall{
+    tbody{
+        tr{
+            td{
+                font-size: 12px;
+            }
+            th{
+                font-size: 13px;
+            }
+        }
+    }
+}
+.substext{
+    padding: 10px 85px;font-size: 14pt;
+    p{
+        font-family: 'Open Sans Light' ,sans-serif;font-size: 16px;
+    }
+}
+.font{
+    h2{
+        font-family: 'Open Sans ExtraBold' , sans-serif;font-size: 30px;
+    }
+}
+.or-title{
+    h1{
+        color:$primary;font-style: italic;font-weight: 700;
+    }
+}
+.or-call{
+    width: auto;height: auto;padding: 10px 10px;background-color: rgb(255, 255, 255);font-weight: bold;font-size: 18px;
+    margin-top: 30px;font-family: 'Open Sans Light' ,sans-serif;
+}
+.or-new{
+    width: auto;height: auto;padding: 10px 20px;background-color: $primary;font-size: 16px;font-weight: bold;
+    margin-top: 5px;color: white;line-height: 20px;font-family: 'Open Sans Light' ,sans-serif;
+}
+.or-line{
+    width: 60px;height: 2px;background-color:$primary ;margin: 30px auto;margin-top: 60px;
+}
+.list-or{
+    ul{
+        list-style: none;
+        li{
+            font-family: 'Open Sans Light', sans-serif;font-size: 17px;line-height: 40px;
+            img{
+                width: 20px;
+            }
+        }
+    }
+    
+}
+.onviewpx{
+    padding: 25vh;padding-top: 0;padding-bottom: 0;display: block;
+}
+
+.lineyew{
+    width: 100px;height: 3px;background-color: $second;margin:30px auto;
+}
+.sertext{
+    padding: 0 50px;
+    p{
+        font-size: 15pt;font-family: 'Open Sans Light' , sans-serif;
+    }
+}
+.serimg{
+    p{
+        font-family: 'Open Sans' ,sans-serif;color: rgb(139, 139, 139);font-weight: 500;
+    }
+}
+.linepry{
+    width: 100px;height: 2px;background-color: $primary;margin: 10px 0;
+}
+.servlst{
+    font-size: 15pt;
+    ul{
+        list-style: none;
+    }
+}
+.gorimg{
+        position: absolute;z-index: 2;right: 10px;
+}
+.boxabo{
+    width: 60%;height: 14vh;background-color: rgb(241, 241, 241);position: absolute;z-index: 1;top:4vh;
+    padding: 15px;padding-right: 30px;text-align: right;font-size: 20px;
+}
+
+.golimg{
+    position: absolute;z-index: 2;left: 10px;
+}
+.boxaboright{
+    width: 65%;height: 15vh;background-color: rgb(241, 241, 241);position: absolute;z-index: 1;top:3.5vh;right: 0;
+    padding: 15px;padding-left: 30px;font-size: 20px;
+}
+.linesmall{
+    width: 50px;height: 1px;background-color: $primary;margin: 10px 0;
+}
+.prosmarg{
+    padding:20px;
+    p{
+        font-family: 'Open Sans Light' , sans-serif;font-size: 13px;
+    }
+}
+.sideform1{
+    background-color: $primary;width: 100px;height:auto;padding: 10px;font-size: 12px;
+}
+.sideform2{
+    background-color: $second;width: 100px;height:auto;padding: 10px;font-size: 12px;
+}
+.sideform3{
+    background-color: $primary;width: 100%;height:auto;padding: 20px;
+}
+
+.sideinput1{
+    background-color: rgb(245, 245, 245);border-radius: 0;border: none;
+}
+.sideinput2{
+    background-color:  rgb(233, 233, 233);border-radius: 0;border: none;
+}
+
+.onnsub{
+    background-color: $primary;padding: 5px 30px;border: none;border-radius: 0;color: black;
+}
+.onnclick{
+    background-color: $primary;padding: 5px 23px;border: none;border-radius: 0;color: white;
+}
+.onactif{
+    background-color: black;color: white;padding: 5px 23px;border: none;border-radius: 0;
+}
+.review{
+    background-color: rgb(233, 233, 233);padding: 20px;
+    h3{
+        font-family: 'Open Sans Light' , sans-serif;font-weight: bold;
+    }
+    p{
+        font-family: 'Open Sans Light' , sans-serif;
+    }
+}
+.review2{
+    background-color: rgb(245, 245, 245);padding: 20px;
+    h3{
+        font-family: 'Open Sans Light' , sans-serif;font-weight: bold;
+    }
+    p{
+        font-family: 'Open Sans Light' , sans-serif;
+    }
+}
+.awrd{
+    background-color: rgb(243, 243, 243);padding: 20px;font-family: 'Open Sans Light',sans-serif;
+    ul{
+        list-style: square;
+        li{
+            font-weight: bold;
+        }
+    }
+}
+.responmenu{
+    display: none;position: fixed;
+}
+.listrespn{
+    display: none;background-color: rgb(78, 78, 78);color: white;height: 100vh;width: 100%;position: fixed;
+    z-index: 10;top: 0px;
+    h2{
+        a{
+            color: white;
+        }
+    }
+}
+.closs{
+    position: fixed;right: 10px;top: 0px;
+    i{
+        font-size: 30px;cursor: pointer;
+    }
+}
+.rowspan1{
+    background-color: $primary;padding: auto;
+}
+.rowspan2{
+    background-color: $second;padding: auto;
+}
+.footer{
+    font-size: 12px;padding: 0px 90px;
+    h5{
+        color: $primary;font-size: 12px;
+    }
+        b{
+            color:$primary;
+        }
+}
+.fooside{
+    width: 1px;height: auto;background-color: rgb(202, 202, 202);
+}
+.foorange{
+    background:rgb(255, 153, 0);padding:5px 0;margin-top:20px;font-weight: bold;
+}
+
+//media to make screen layout
+@media (max-width: 1920px){
+    .onviewpx{
+        padding:0 40vh;display: block;
+    }
+}
+@media (max-width: 1440px){
+    .onviewpx{
+        padding:0 25vh;display: block;
+    }
+}
+@media (max-width: 1160px){
+    .menimg{
+        left: 10px;
+    }
+}
+
+@media (max-width: 1024px){
+    .onviewpx{
+        padding:0 10vh;display: block;
+    }
+}
+
+@media (max-width: 992px){
+    .menimg{
+        left: 10px;
+    }
+    .papper{
+        padding: 10px;
+    }
+    .onviewpx{
+        padding:0 10vh;display: block;
+    }
+    .list-menu{
+        a{
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 859px){
+    .menimg{
+        top:-45px;left: 5px;
+        img{
+            width: 152px;
+        }
+    }
+    .list-menu{
+        a{
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .menimg{
+        left: 2px;
+    }
+    .papper{
+        padding: 10px;padding-top: 0;margin-top: 0;
+    }
+    .onviewpx{
+        display: none;
+    }
+    .responmenu{
+        display: block;top:15px;left: 15px;
+        i{
+            font-size: 30px;cursor: pointer;
+        }
+    }
+}
+@media (max-width: 575px){
+    .onviewpx{
+        display: none;
+    }
+    .papper{
+        padding: 15px;
+    }
+    .range2{
+        width: 100%;
+    }
+    .marg{margin: 30px}
+    .stoptext{
+        width: 50%;
+    }
+    .substext{
+        padding: 10px;
+    }
+}

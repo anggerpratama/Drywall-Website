@@ -1,0 +1,32 @@
+.menu {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  float: right; }
+
+.papper {
+  padding: 120px;
+  padding-top: 0; }
+
+.list-menu {
+  width: auto;
+  float: right; }
+  .list-menu a {
+    color: white;
+    margin: 0 20px; }
+    .list-menu a:hover {
+      text-decoration: none; }
+
+.menimg {
+  position: absolute;
+  top: -60px;
+  left: 150px; }
+  .menimg img {
+    width: 180px; }
+
+.social {
+  margin: 30px 0; }
+
+/*# sourceMappingURL=global_style.css.map */
